@@ -1,0 +1,38 @@
+body {background-color: black;}
+
+p{color: #fffefe;}
+
+
+p {border: 20px solid #000;}
+
+h1{border: 20px solid #000;}
+
+h2 {border: 20px solid #000}
+
+.gif-responsivo {
+    max-width: 100%;
+    height: auto;
+}
+
+.bart{
+    text-align: right;
+    border-right: none;
+}
+
+.iframe-responsivo {
+    width: 90%; /* Ocupa 100% da largura do contêiner pai */
+    height: 200px; /* Altura padrão para telas pequenas */
+  }
+  
+  /* Estilos para telas maiores (exemplo: telas de computador) */
+  @media (min-width: 768px) {
+    .iframe-responsivo {
+      width: 600px; /* Largura maior para telas maiores */
+      height: 300px; /* Altura maior para telas maiores */
+    }
+  }
+
+  .gf-responsivo {
+    max-width: 100%;
+    height: 300%;
+  }
